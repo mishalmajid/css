@@ -1,0 +1,33 @@
+h1 {
+  background-color: brown;
+  text-align: center;
+  display: inline;
+}
+p {
+  font-style: italic;
+}
+#mishal {
+  font-weight: 900;
+}
+#bahawalpur {
+  font-weight: 900;
+  font-variant: small-caps;
+}
+#1051 {
+  font-weight: 900;
+}
+p {
+  font-style: oblique;
+}
+#lahore {
+  font-weight: 900;
+  font-variant: small-caps;
+}
+#sugar {
+  font-weight: 900;
+  font-variant: small-caps;
+}
+#breakfast {
+  font-weight: 900;
+  font-variant: small-caps;
+}

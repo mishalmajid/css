@@ -1,0 +1,33 @@
+h1 {
+  background-color: aqua;
+}
+#blue {
+  background-color: black;
+}
+#blue {
+  font-size: 90px;
+}
+#blue {
+  font-weight: bold;
+}
+#blue {
+  text-align: center;
+}
+#blue {
+  text-transform: capitalize;
+}
+#blue {
+  text-shadow: 100px;
+}
+#blue {
+  -moz-text-decoration-color: aqua;
+}
+#blue {
+  text-decoration-line: underline;
+}
+#blue {
+  text-rendering: geometricPrecision;
+}
+.color {
+  font-style: oblique;
+}
