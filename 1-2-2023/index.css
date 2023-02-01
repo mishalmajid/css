@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.links {
+  background-color: rgb(19, 17, 17);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  list-style-type: none;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.links li {
+  margin: 0px 15px;
+}
+a {
+  text-decoration: none;
+  color: red;
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 20px;
+  padding: 0;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(8, 5, 5);
+  font-style: normal;
+  align-items: center;
+  list-style-type: none;
+}
+.link li {
+  margin: 0px 10px;
+}
+a {
+  color: rgb(221, 94, 9);
+  text-decoration: none;
+}
+.file {
+  display: list-item;
+  justify-content: center;
+  background-color: rgb(1, 11, 153);
+  font-style: normal;
+  align-items: center;
+  list-style-type: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
