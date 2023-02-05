@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgba(172, 0, 172, 0.815);
+}
+.logo {
+  width: 40px;
+  height: 50px;
+  cursor: all-scroll;
+}
+.link {
+  display: flex;
+  list-style-type: none;
+}
+.link li {
+  margin: 0px 11px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-style: oblique;
+  font-size: larger;
+}
+a:hover {
+  color: lightgoldenrodyellow;
+}
+.btn {
+  padding: 11px 20px;
+  border: 3px solid purple;
+  border-radius: 7px;
+  font-weight: 900;
+  font-style: oblique;
+  cursor: cell;
+}
+.btn:hover {
+  background-color: rgb(243, 154, 228);
+}
+.herosection {
+  background-color: pink;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(11.png);
+}
+.hero {
+  font-size: 35px;
+  padding: 35px;
+  font-weight: bold;
+  color: purple;
+  text-shadow: 3px 3px 2px rgb(210, 146, 223);
+  font-style: normal;
+}
+.my {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(11.png);
+}
+.me {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: purple;
+  cursor: all-scroll;
+  padding: 30px;
+  text-shadow: 3px 3px 2px rgb(210, 146, 223);
+}
+.self {
+  font-size: 19px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(165, 6, 99);
+  padding: 50px;
+  text-transform: inherit;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+.me:hover {
+  color: aliceblue;
+}
+.self:hover {
+  color: rgb(241, 71, 165);
+}
