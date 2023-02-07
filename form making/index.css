@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 40vw;
+  background-color: rgb(197, 10, 97);
+  background-image: url(8.jpg);
+}
+.names {
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn {
+  border: 2px solid black;
+  size: 4px;
+  font-weight: bold;
+  padding: 3px;
+  cursor: pointer;
+}
+input[type="text"] {
+  border-radius: 4px;
+  color: rgb(0, 26, 255);
+}
+input[type="number"] {
+  border-radius: 4px;
+  color: rgb(0, 17, 255);
+}
+input[type="email"] {
+  border-radius: 4px;
+  color: rgb(4, 0, 255);
+}
+.btn:hover {
+  background-color: rgb(48, 91, 233);
+}
+.btns {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
