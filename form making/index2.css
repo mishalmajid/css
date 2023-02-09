@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.abc {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  margin: 25px;
+}
