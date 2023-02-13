@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.my {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(2.png);
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.mine {
+  color: beige;
+  font-weight: bold;
+  cursor: pointer;
+}
+.abc {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+}
+.abc li {
+  margin: 0 8px;
+}
+.btn {
+  border: 2px solid red;
+  padding: 3px;
+  font-size: 15px;
+  transition: transform 0.4s;
+}
+a:hover {
+  color: red;
+}
+.btn:hover {
+  background-color: rgb(95, 77, 77);
+  transform: scale(1.2);
+}
+.contact {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1 {
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 60px;
+}
+h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+h4 {
+  color: grey;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.news form {
+  width: 280px;
+  max-width: 100%;
+  position: relative;
+}
+.news form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid rgb(119, 97, 97);
+  outline: none;
+  border-radius: 15px;
+}
+.news form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: rgb(199, 169, 169);
+  top: 6px;
+  right: 6px;
+}
+.about {
+  width: 100%;
+  background-color: rgb(31, 28, 28);
+}
+.about img {
+  height: auto;
+  width: 440px;
+}
+.text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text h2 {
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+}
+.text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 12px;
+  margin-bottom: 45px;
+}
+button {
+  background-color: grey;
+  border: 2px solid;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 28px;
+  translate: 0.4s;
+}
+button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.service {
+  background-color: grey;
+  width: 100%;
+  padding: 100px 0px;
+}
+title h2 {
+  color: rgb(138, 13, 13);
+  font-size: 65px;
+  width: 1100px;
+  margin: 30px auto;
+  text-align: center;
+}
