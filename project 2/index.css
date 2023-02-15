@@ -203,16 +203,3 @@ h5 {
   background-color: rgb(231, 95, 163);
   transform: scale(1.2);
 }
-.contact-me {
-  width: 100%;
-  height: 290px;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.contact-me p {
-  color: white;
-  font-size: 30px;
-}
