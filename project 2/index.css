@@ -5,7 +5,7 @@
 .my {
   height: 100vh;
   width: 100vw;
-  background-image: url(2.png);
+  background-image: url(20.avif);
   background-position: center;
 }
 nav {
@@ -15,9 +15,10 @@ nav {
   padding-top: 40px;
 }
 .mine {
-  color: beige;
+  color: rgb(24, 24, 16);
   font-weight: bold;
   cursor: pointer;
+  font-size: 35px;
 }
 .abc {
   list-style-type: none;
@@ -28,22 +29,24 @@ nav {
 
 a {
   text-decoration: none;
-  color: azure;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
 .abc li {
   margin: 0 8px;
 }
 .btn {
-  border: 2px solid red;
+  border: 2px solid none;
   padding: 3px;
   font-size: 15px;
   transition: transform 0.4s;
 }
 a:hover {
-  color: red;
+  color: brown;
 }
 .btn:hover {
-  background-color: rgb(95, 77, 77);
+  background-color: brown;
   transform: scale(1.2);
 }
 .contact {
@@ -53,17 +56,17 @@ a:hover {
   transform: translateY(-50%);
 }
 h1 {
-  color: white;
+  color: black;
   margin: 20px 0px 20px;
   font-size: 60px;
 }
 h3 {
-  color: white;
+  color: black;
   font-size: 20px;
   margin-bottom: 30px;
 }
 h4 {
-  color: grey;
+  color: coral;
   letter-spacing: 2px;
   font-size: 20px;
 }
@@ -75,7 +78,7 @@ h4 {
 .news form input:first-child {
   display: inline-block;
   width: 100%;
-  padding: 14px 130px 14px 15px;
+  padding: 14px 10px 14px 15px;
   border: 2px solid rgb(119, 97, 97);
   outline: none;
   border-radius: 15px;
@@ -89,7 +92,7 @@ h4 {
   border-radius: 15px;
   background-color: rgb(199, 169, 169);
   top: 6px;
-  right: 6px;
+  left: 190px;
 }
 .about {
   width: 100%;
@@ -97,7 +100,8 @@ h4 {
 }
 .about img {
   height: auto;
-  width: 440px;
+  width: 400px;
+  left: 50px;
 }
 .text {
   width: 550px;
@@ -145,10 +149,57 @@ button:hover {
   width: 100%;
   padding: 100px 0px;
 }
-title h2 {
-  color: rgb(138, 13, 13);
-  font-size: 65px;
-  width: 1100px;
+.our {
+  color: black;
+  font-size: 50px;
+  width: 1000px;
   margin: 30px auto;
   text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.cards {
+  height: 300px;
+  width: 335px;
+  padding: 20px 35px;
+  background-color: beige;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.cards i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: rgb(48, 51, 214);
+}
+h5 {
+  color: rgb(180, 6, 107);
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: rgb(76, 0, 255);
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.cards .button {
+  background-color: rgb(131, 62, 196);
+  border: 2px solid none;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 28px;
+  translate: 0.4s;
+}
+.cards .button:hover {
+  background-color: rgb(231, 95, 163);
+  transform: scale(1.2);
 }
